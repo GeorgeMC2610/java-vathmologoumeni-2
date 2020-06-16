@@ -9,24 +9,17 @@ public abstract class Vehicle
     public Vehicle()
     {
         this.x = this.y = 0f;
-        this.availablePassengers = 0;
-        this.name = "";
-    }
-
-    public void setName(String name)
-    {
-        this.name = name;   //this is going to set the instance's name (left from the equals sign) equal with the parameter's name (right from the equals)
     }
 
     public void move(float x, float y)
     {
-        this.x += x;        //same thing. we're adding the parameter's value to the instance's value
+        this.x += x;        //this is going to set the instance's x and y (left from the equals sign) equal with the parameters' x and y (right from the equals)
         this.y += y;
     }
 
-    public void setPassengers(int availablePassengers)
+    public void announceCoordinates()
     {
-        this.availablePassengers = availablePassengers;
+        System.out.println("Currently at: " + this.x + ", " + this.y);      //again, this only affects the instance
     }
 }
 
@@ -38,6 +31,7 @@ class Car extends Vehicle
     public Car()
     {
         super(); //this is calling the Vehicle constructor. this way, we can clone the vehicle class constructor to the extended class constructor
+        this.passengers = 0;
     }
 
     public void setPassengers(int passengers)
@@ -46,7 +40,7 @@ class Car extends Vehicle
             this.passengers = passengers;         //this is setting the instance's passengers (it must be a car) equal with the parameter's
     }
 
-    public String getManufactuer()
+    public String getManufacturer()
     {
         String model = super.manufacturer + ", " + this.manufacturer;   //the super manufacturer is "Unipi" from the Vehicle class and this manufacturer is "CsUnipiCar"
         return model;
@@ -61,6 +55,7 @@ class Bus extends Vehicle
     public Bus()
     {
         super(); //we're once again calling the vehicle constructor
+        this.standingPassengers = this.sittingPassengers = 0;
     }
 
     public void standingPassengers(int standingPassengers)
@@ -71,6 +66,13 @@ class Bus extends Vehicle
 
     public void setSittingPassengers(int sittingPassengers)
     {
-        
+        if (sittingPassengers > 0 && sittingPassengers < 25)
+            this.sittingPassengers = sittingPassengers;         //again, only the bus' passengers.
+    }
+
+    public String getManufacturer()
+    {
+        String model = super.manufacturer + ", " + this.manufacturer; //again we're combining the vehicle class manufacturer with the bus manufacturer
+        return model;
     }
 }
