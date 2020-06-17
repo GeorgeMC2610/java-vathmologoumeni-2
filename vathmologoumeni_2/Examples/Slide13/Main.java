@@ -1,3 +1,5 @@
+package vathmologoumeni_2.Examples.Slide13;
+
 //Slide 91 of 208, Example 13 of 32
 //Variable scope
 

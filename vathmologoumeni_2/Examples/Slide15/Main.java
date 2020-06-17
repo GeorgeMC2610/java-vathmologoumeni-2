@@ -1,3 +1,5 @@
+package vathmologoumeni_2.Examples.Slide15;
+
 //Slide 99 of 208, Example 15 of 32
 //Variable Arguements (Varargs)
 

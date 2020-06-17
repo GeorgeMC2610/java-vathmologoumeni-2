@@ -1,3 +1,4 @@
+package vathmologoumeni_2.Examples.Slide9;
 //Slide 83 of 208, Example 9 of 32
 //Abstract classes & methods
 
