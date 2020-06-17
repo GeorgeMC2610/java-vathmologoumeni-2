@@ -1,6 +1,6 @@
 package vathmologoumeni_2.Examples.Slide26;
 
-//Slide 144 of 208, Example 26 of 32
+//Slide 144 of 208, Example 25 of 32
 //Switch vs If
 
 public class Main 

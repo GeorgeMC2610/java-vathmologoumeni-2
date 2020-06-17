@@ -1,6 +1,6 @@
 package vathmologoumeni_2.Examples.Slide25;
 
-//Slide 139 of 208, Example 25 of 32
+//Slide 139 of 208, Example 24 of 32
 //Ternary operator
 
 public class Main 
