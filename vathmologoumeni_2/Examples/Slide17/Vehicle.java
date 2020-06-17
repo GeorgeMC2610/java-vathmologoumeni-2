@@ -1,3 +1,5 @@
+package vathmologoumeni_2.Examples.Slide17;
+
 public abstract class Vehicle
 {
     //these are the instance variables and since they're private, we'll need a way to set them

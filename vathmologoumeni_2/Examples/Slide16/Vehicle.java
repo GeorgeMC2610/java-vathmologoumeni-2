@@ -1,8 +1,9 @@
+package vathmologoumeni_2.Examples.Slide16;
+
 public interface Vehicle
 {
     public void park();
-    public void startEngine();
-    public void move();
+    public void move(int x, int y);
 }
 
 class Car implements Vehicle
@@ -25,10 +26,14 @@ class Airplane implements Vehicle
 {
     private int x, y, z;
 
-    public void move(int x, int y, int z)
+    public void move(int x, int y)
     {
         this.x += x;
         this.y += y;
+    }
+
+    public void fly(int z)
+    {
         this.z += z;
     }
 

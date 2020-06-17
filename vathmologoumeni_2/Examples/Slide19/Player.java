@@ -1,3 +1,5 @@
+package vathmologoumeni_2.Examples.Slide19;
+
 public class Player
 {
     //here we have all the data that a player has to have. but we have different ways a player can be made
