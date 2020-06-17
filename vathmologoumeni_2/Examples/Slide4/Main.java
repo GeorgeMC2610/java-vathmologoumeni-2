@@ -39,8 +39,5 @@ public class Main
         Player p2 = new Player();
         p2.move(10, 10);
         p2.announceCoordinates();
-
-        Test t1 = new m1.Test();
-        t1.addTwoNumbers(2, 5);
     }
 }
