@@ -1,4 +1,5 @@
 package vathmologoumeni_2.Examples.Slide9;
+
 //this class is an abstract class, we cannot make an object out of it. Later it's going to be extended by another class, which we will make an object out of it.
 public abstract class ElectronicDevice
 {
