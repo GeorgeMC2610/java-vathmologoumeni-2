@@ -26,8 +26,8 @@ public class Main
         {
             public void saySomething()
             {
-                System.out.println("Since this class extends the Parentclass, all variables declared as 'private' cannot be used.");
+                System.out.println("Since this class extends the Professor class, all variables declared as 'private' cannot be used.");
             }
-        }.saySomething();
+        }.saySomething();   //we immideately call the method, beacuse this is an anonymous object.
     }
 }
