@@ -16,7 +16,5 @@ public class Main
 
         //and even though the name and address variables are public, they're declared as final; they can only be read, not modified.
         System.out.println("I can see " + Unipi.name + "' name and addres, but there's no way I can change either of those.");
-
-
     }
 }
