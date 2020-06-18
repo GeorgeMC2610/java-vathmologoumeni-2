@@ -9,6 +9,7 @@ public class FullyQualified
     {
         //since we're not using an import statement, the entire package declaration is needed to make a Car object.
         vathmologoumeni_2.Examples.Slide6.Vehicles.Car c1 = new vathmologoumeni_2.Examples.Slide6.Vehicles.Car("Opel");
+        
         //all of its functions can be used normally since we can now use the class
         c1.move(5, 3);
         c1.showCoords();

@@ -5,11 +5,10 @@ package vathmologoumeni_2.Examples.Slide7;
 
 import static vathmologoumeni_2.Examples.Slide7.Universities.Unipi.University;       //this contains a single variable
 import static vathmologoumeni_2.Examples.Slide7.Universities.Unipi.makeAnnouncement; //this contains a single method
-
-import vathmologoumeni_2.Examples.Slide7.Universities.Unipi;
-
 import static vathmologoumeni_2.Examples.Slide7.Universities.Unipi.*;                //or we can just import everything, because we're not sure how many static stuff there are.
 //but this will only import static variables.
+
+import vathmologoumeni_2.Examples.Slide7.Universities.Unipi;                         //this contains the whole class
 
 public class Main 
 {
