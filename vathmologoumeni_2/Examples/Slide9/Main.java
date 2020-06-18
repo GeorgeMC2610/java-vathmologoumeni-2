@@ -6,8 +6,7 @@ public class Main
 {
     public static void main(String[] args) 
     {
-        Laptop l1 = new Laptop("ASUS");
-        l1.describeMe();       
+        Human h1 = new Human("Giorgos", 18);  
     
     }
 }
