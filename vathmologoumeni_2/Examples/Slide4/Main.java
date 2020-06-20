@@ -1,17 +1,10 @@
 package vathmologoumeni_2.Examples.Slide4;
+
 //Slide 40 of 208, Example 4 of 32
 //Nested classes
 
 public class Main 
 {
-    private class Test
-    {
-        public int addTwoNumbers(int a, int b)
-        {
-            return a+b;
-        }
-    }
-
     private static class Player
     {
         private int x, y;
@@ -28,8 +21,6 @@ public class Main
         }
     }
 
-
-
     public static void main(String[] args)
     {
         Player p1 = new Player();
@@ -39,5 +30,7 @@ public class Main
         Player p2 = new Player();
         p2.move(10, 10);
         p2.announceCoordinates();
+
+
     }
 }
