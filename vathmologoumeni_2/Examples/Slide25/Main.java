@@ -1,30 +1,61 @@
 package vathmologoumeni_2.Examples.Slide25;
 
-//Slide 139 of 208, Example 24 of 32
-//Ternary operator
+//Slide 144 of 208, Example 25 of 32
+//Switch vs If
 
 public class Main 
 {
-    public static void main(String[] args)
+    public static void main(String[] args) 
     {
-        System.out.println( absoluteValue(-4) );     //the function with the ternary operator returns an int.
-        System.out.println( absoluteValue(-4f));     //the hard-coded function returns a float.
-        System.out.println("These two functions do the same thing, except it's done with a ternary operator in the first one.");
-    }
+        //we have this variable and we want to determine a day by its value
+        short day = 6;
 
-    //these two function do exactly the same thing.
-    //this one does it with a ternary operator
-    public static int absoluteValue(int i)
-    {
-        return (i < 0)? -i : i;     //inside the parenthesis there is the expression. if it is true, then the left side of the ':' gets executed. if it's false, the left side gets executed?
-    }
-
-    //here's the same thing, except it's more obvious for what's happening.
-    public static float absoluteValue(float i)
-    {
-        if (i < 0)
-            return -i;
+        //there are two ways.
+        //1. many IF statements
+        if (day == 1)
+            System.out.println("Monday");
+        else if (day == 2)
+            System.out.println("Tuesday");
+        else if (day == 3)
+            System.out.println("Wednesday");
+        else if (day == 4)
+            System.out.println("Thursday");
+        else if (day == 5)
+            System.out.println("Friday");
+        else if (day == 6)
+            System.out.println("Saturday");
+        else if (day == 7)
+            System.out.println("Sunday");
         else
-            return i;
+            System.out.println("This is not a weekday.");
+        
+        //the second way is much cleaner
+        //switch case
+        switch (day)
+        {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("This is not a weekday.");
+        }
     }
 }
