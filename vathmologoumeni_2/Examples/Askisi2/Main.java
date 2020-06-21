@@ -10,7 +10,9 @@ public class Main
 {
     public static void main(String[] args) 
     {
+        //creating of the list
         ArrayList<Integer> ints = new ArrayList<>();
+
         ints.add(19);
         ints.add(29);
         ints.add(42);
@@ -18,12 +20,12 @@ public class Main
         ints.add(35);
         ints.add(76);
 
-        ListIterator<Integer> iterator = ints.listIterator();
-        while (iterator.hasNext())
+        for (int i = 0; i < ints.size(); i++)
         {
-            System.out.println(iterator.next());
+
         }
 
+        System.out.println(ints.toString());
         
     }
 }

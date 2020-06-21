@@ -49,7 +49,7 @@ public class Main
         }
 
         //Method 3. hard coded for
-        System.out.println("\n3rd method 'hard corded for':");
+        System.out.println("\n3rd method 'hard corded for loop':");
         for (int i = 0; i < integers.size(); i++)
         {
             System.out.println(integers.get(i));
