@@ -5,7 +5,8 @@ package vathmologoumeni_2.Examples.Slide4;
 
 public class Main 
 {
-    private static class Player
+    //this is a nested class, it has all the same stuff as a normal class
+    static class Player
     {
         private int x, y;
 
@@ -19,6 +20,22 @@ public class Main
         {
             System.out.println(this.x + ", " + this.y);
         }
+
+        //also we can created a second nested class, which is also visible
+        static class Human
+        {
+            String name;
+
+            public Human(String name)
+            {
+                this.name = name;
+            }
+
+            public void introduceSelf()
+            {
+                System.out.println("Hello, my name is " + this.name + "!");
+            }
+        }
     }
 
     public static void main(String[] args)
@@ -31,6 +48,7 @@ public class Main
         p2.move(10, 10);
         p2.announceCoordinates();
 
-
+        Player.Human h1 = new Player.Human("Yiannis");
+        h1.introduceSelf();
     }
 }
