@@ -1,4 +1,4 @@
-package vathmologoumeni_2.Examples.Askisi2;
+package vathmologoumeni_2.Askiseis.Excercise2;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
