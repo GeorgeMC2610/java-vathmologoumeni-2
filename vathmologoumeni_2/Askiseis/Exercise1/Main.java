@@ -1,6 +1,6 @@
-package vathmologoumeni_2.Askiseis.Excercise1;
+package vathmologoumeni_2.Askiseis.Exercise1;
 
-//Slide 123 of 208, Excercise 1 of 3
+//Slide 123 of 208, Exercise 1 of 3
 //Do the String class methods affect the String pool?
 
 public class Main 

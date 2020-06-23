@@ -1,4 +1,4 @@
-package vathmologoumeni_2.Askiseis.Excercise3;
+package vathmologoumeni_2.Askiseis.Exercise3;
 
 import java.util.ArrayList;
 

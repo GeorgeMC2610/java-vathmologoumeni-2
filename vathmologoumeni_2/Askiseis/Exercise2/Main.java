@@ -1,4 +1,4 @@
-package vathmologoumeni_2.Askiseis.Excercise2;
+package vathmologoumeni_2.Askiseis.Exercise2;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
@@ -11,7 +11,7 @@ public class Main
     public static void main(String[] args) 
     {
         //creating of the list
-        ArrayList<Integer> ints = new ArrayList<Integer>();
+        ArrayList<Integer> ints = new ArrayList<>();
 
         ints.add(19);
         ints.add(29);
