@@ -9,7 +9,7 @@ public class Main
     {
         //casting is when we want to actively convert a variable type to another type
 
-        //here's an float
+        //here's a float
         float a1 = 15.9f;
         System.out.println(a1);
 
